@@ -48,7 +48,58 @@
         console.log(ans)
         </pre>
 
-        <h3>Que-4---</h3>
+        <h3>Que-4---You are provided a four digit number N only. Your task is to print out the first digit of that number.
+
+            Note: You have to complete First_Digit function. No need to take any input.</h3>
+
+            <pre style="color: brown;">ans-- Methode-I
+                By using function and operator
+                const first_digit=(N)=>{
+                    return Math.trunc(N/1000);
+                }
+                const ans =first_digit(1234)
+                console.log(ans)
+
+
+            Methode-II-
+            By using loop 
+            
+            let N=3498;
+
+            let ans=N.toString().split('')
+            for(let i=0;i,i < ans.length;i++){
+                console.log(ans[0])
+            }
+            </pre>
+
+    <h3>Que-5---You are provided a four digit number N only. Your task is to print out the last digit of that number.</h3>
+    <pre style="color: brown;">ans---
+          Methode-I--By using for loop 
+         let N=5478;
+        let ans=N.toString().split('')
+     for(let i=0;i< ans.length;i++){
+        console.log(ans[3])
+     }
+    
+    Methode-II--
+     const last_digit=(N)=>{
+        return Math.trunc(N%10)
+     }
+     const ans=last_digit(4587)
+     console.log(ans)
+    </pre>
+    <h3>Que-6--You are provided with two numbers A and B. Your task is to multiply these two numbers.
+        Note: You have to complete Multiply_two_number function. No need to take any input.</h3>
+
+        <pre style="color: brown;">
+            const multiply_two_number=(A,B)=>{
+                return A*B
+            }
+            const ans =multiply_two_number(4,5)
+            console.log(ans)
+        </pre>
+
+        <h3>Que--7--</h3>
     
 </body>
 </html>
